@@ -526,26 +526,23 @@ body{
 
 }
 
-@keyframes ball1{
-    to{
-        left: calc(39.5vw - 50px);
-    }
+
+@keyframes ball1 {
+    from { left: 0; }
+    to { left: 330px; } 
 }
 
-@keyframes ball2{
-    to{
-        top: calc(17.5vh - 50px);
-    }
+@keyframes ball2 {
+    from { top: 0; }
+    to { top: 150px; } 
 }
 
-@keyframes ball3{
-    to{
-        right: calc(39.5vw - 50px);
-    }
+@keyframes ball3 {
+    from { right: 0; }
+    to { right: 330px; } 
 }
 
-@keyframes ball4{
-    to{
-        bottom: calc(17.5vh - 50px);
-    }
+@keyframes ball4 {
+    from { bottom: 0; }
+    to { bottom: 150px; } 
 }
